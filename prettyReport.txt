@@ -1,0 +1,6 @@
+
+@tag
+Scenario Outline: Validate Login page error msg  # src/test/resources/features/login.feature:40
+  Given user login in application with "" and "" # stepDefination.loginStepDef.user_login_in_application_with_and(java.lang.String,java.lang.String)
+  And Click on login button                      # stepDefination.loginStepDef.click_on_login_button()
+  Then Verify the error msg should display       # stepDefination.loginStepDef.verify_the_error_msg_should_display()
